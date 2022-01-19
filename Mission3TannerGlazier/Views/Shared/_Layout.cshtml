@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+
+    <!--Website title-->
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"]</title>
+
+    <!--Stylesheet-->
+    <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/default.css" rel="stylesheet" />
+
+    <!--Website icon-->
+    <link runat="server" rel="shortcut icon" href="~/favicon.ico.jpg" type="image/x-icon" />
+    <link runat="server" rel="icon" href="~/favicon.ico.jpg" type="image/ico" />    
+    
+
+</head>
+<body>
+    <!--Website navigation bar-->
+    <nav>
+        <a asp-controller="view" asp-action="Index">Home</a>
+        <a asp-controller="view" asp-action="Grades">Grades</a>
+    </nav>
+    <!--Website body section-->
+    <div>
+        @RenderBody()
+    </div>
+
+    <!--Bootstrap and Jquery-->
+    <script src="~/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/lib/jquery/jquery-3.6.0.min.js"></script>
+    <!--Javascript-->
+    <script src="~/js/Grades.js"></script>
+</body>
+</html>

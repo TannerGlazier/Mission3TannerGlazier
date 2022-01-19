@@ -1,0 +1,29 @@
+﻿body {
+    align-content: center;
+}
+img{
+    width:300px;
+    padding: 10px; 
+}
+form{
+    text-align: center;
+    padding: 25px;
+    width: 500px;
+}
+fieldset{
+    background-color: deepskyblue;
+}
+div{
+    text-align:center;
+        width:500px;
+}
+p{
+    width:500px;
+    padding: 0px 100px 0px 100px;
+}
+li{
+    list-style-type:none;
+}
+nav{
+    padding: 15px;
+}
