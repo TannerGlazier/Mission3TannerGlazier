@@ -8,12 +8,13 @@
 
 @model GradesModel;
 
-<!--Grade Calculation inputs-->
+
 <div>
     <h3>Grade Calculation</h3>
     <p><u>Enter as a decimal (ie. 92.3% as 92.3)</u></p>
     <form method="post">
         <fieldset>
+            <!--Grade Calculation inputs-->
             <label>Assignments</label><br />
             <input id="assignment" asp-for="Assignment" /><br /><br />
             <label>Group Projects</label><br />
@@ -24,7 +25,11 @@
             <input id="exam" asp-for="Exam" /><br /><br />
             <label>INTEX</label><br />
             <input id="intex" asp-for="INTEX" /><br /><br />
+
+            <!--Form Submission-->
             <input id="btnSend" type="submit" value="Calculate Grade" /><br /><br />
+
+            <!--Data Vailidation-->
             <div asp-validation-summary="All"></div>
         </fieldset>
     </form>

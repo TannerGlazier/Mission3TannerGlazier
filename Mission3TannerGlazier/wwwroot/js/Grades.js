@@ -18,7 +18,7 @@
     if (score >= 94) {
         letter = "A"
     }
-    else if (score >=90){
+    else if (score >= 90) {
         letter = "A-"
     }
     else if (score >= 87) {
@@ -48,7 +48,7 @@
     else if (score >= 60) {
         letter = "D-"
     }
-    else {
+    else if (score >= 0) {
         letter = "E"
     }
     alert("Grade: " + letter + " Score: " + score.toFixed(2));

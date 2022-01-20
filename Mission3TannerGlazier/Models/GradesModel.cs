@@ -8,7 +8,7 @@ namespace Mission3TannerGlazier.Models
 {
     public class GradesModel
     {
-        /* Set all variables to be required and only accept values in a rang from 0 to 100*/
+        /* Set all variables to be required and only accept values in a range from 0 to 100*/
         /* add getters and setters for each variable */
         [Required]
         [Range(0,100)]
