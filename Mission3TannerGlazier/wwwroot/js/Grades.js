@@ -51,5 +51,8 @@
     else if (score >= 0) {
         letter = "E"
     }
+    else {
+        letter = "Cannot have a negative grade. \n"
+    }
     alert("Grade: " + letter + " Score: " + score.toFixed(2));
 });
